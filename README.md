@@ -2,27 +2,27 @@
 # Portable Remote
 
 
-#### Alexandru Mihai Serb, 266913
+Alexandru Mihai Serb, 266913
 
-### Eduard-Nicolae Costea, 266078
+Eduard-Nicolae Costea, 266078
 
-### Mihail-Alexandru Ciornea, 266875
+Mihail-Alexandru Ciornea, 266875
 
-### Raul Andrei Pologea, 266240
+Raul Andrei Pologea, 266240
 
-### Supervisor : Christian Flinker Sandbeck
+Supervisor : Christian Flinker Sandbeck
 
 
 # Table of content
 
-### 1.  Background description  
-### 2.  Definition of purpose   
-### 3.  Problem Statement   
-### 4.  Diagrams    
-### 5.  Requirements    
-### 6.  Test    
-### 7.  Risk assessment
-### 8.  Sources of Information  
+1.  Background description  
+2.  Definition of purpose   
+3.  Problem Statement   
+4.  Diagrams    
+5.  Requirements    
+6.  Test    
+7.  Risk assessment
+8.  Sources of Information  
 
 
 ## 1.  Background description
