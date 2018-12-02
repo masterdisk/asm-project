@@ -10,7 +10,7 @@ Mihail-Alexandru Ciornea, 266875
 
 Raul Andrei Pologea, 266240
 
-Supervisor : Christian Flinker Sandbeck
+Supervisor: Christian Flinker Sandbeck
 
 
 # Table of content
@@ -27,26 +27,26 @@ Supervisor : Christian Flinker Sandbeck
 
 ## 1.  Background description
 
-“In computer engineering, computer architecture is a set of rules and methods that describe the functionality, organization, and implementation of computer systems. Some definitions of architecture define it as describing the capabilities and programming model of a computer but not a particular implementation. In other definitions computer architecture involves instruction set architecture design, microarchitecture design, logic design, and implementation”.
+“In computer engineering, computer architecture is a set of rules and methods that describe the functionality, organization, and implementation of computer systems. Some definitions of architecture define it as describing the capabilities and programming model of a computer but not a particular implementation. In other definitions, computer architecture involves instruction set architecture design, microarchitecture design, logic design, and implementation”.
 
-The project uses a Adeept Mega 2560 Board connected to the computer from a USB cable while on the breadboard there are the Thermistor, which measures the temperature in Celsius, Kelvin and Fahrenheit, the LCD1602, which displays the temperature, the Potentiometer (10K Ω) which changes the contrast of the LCD display, a small button, which changes the degrees from Celsius to Kelvin then to Fahrenheit and finally back to Celsius every time it is pressed, a Resistor (220 Ω). Last but no least, there are male to male jumper wires to make the connections.
+The project uses a Adeept Mega 2560 Board connected to the computer from a USB cable while on the breadboard there are the Thermistor, which measures the temperature in Celsius, Kelvin and Fahrenheit, the LCD1602, which displays the temperature, the Potentiometer (10K Ω) which changes the contrast of the LCD display, a small button, which changes the degrees from Celsius to Kelvin then to Fahrenheit and finally back to Celsius every time it is pressed, a Resistor (220 Ω). Last but not least, there are male to male jumper wires to make the connections.
 
-The temperature converter has no OFF state, since it is plugged in it is in the ON state and it cannot be turned off, it can only be shut down by removing the USB cable.
+The temperature converter has no OFF state since it is plugged in it is in the ON state and it cannot be turned off, it can only be shut down by removing the USB cable.
 
 
 
  
 ## 2.  Definition of purpose
 
-The purpose of the project is to make a temperature converter that shows the degrees in Celsius, Kelvin and Fahrenheit and can switch between them in real time, while showing it on a LCD display.
+The purpose of the project is to make a temperature converter that shows the degrees in Celsius, Kelvin, and Fahrenheit and can switch between them in real time while showing it on an LCD display.
 
  
 ## 3.  Problem Statement
-The temperature converter is a system for people to use in order to switch up real quick between different measurement scales.The ones being used are: Celsius, Kelvin and Fahrenheit.
-The main problems we has to solve were:
+The temperature converter is a system for people to use in order to switch up real quick between different measurement scales. The ones being used are Celsius, Kelvin, and Fahrenheit.
+The main problems we have to solve were:
      1. How to make the display work properly without losing color
      2. How to properly place the items on the breadboard
-     3. How to correctly code using only Assembly
+     3. How to correctly code using the only Assembly
 
 . 
 ## 4.  Diagrams
@@ -55,7 +55,7 @@ The main problems we has to solve were:
  
 ## 5.  Requirements
 Functional requirements
-•   The temperature converter should be able to switch the temperature between Celsius, Kelvin and Fahrenheit
+•   The temperature converter should be able to switch the temperature between Celsius, Kelvin, and Fahrenheit
 •   The display should work properly and be visible enough
 
 Non-functional requirements
