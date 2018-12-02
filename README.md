@@ -69,9 +69,9 @@ The main problems we have to solve were:
 
  
 ## 6.  Test
-1.The board (with the code already luploaded) needs to be powered on by being plugged to a computer ort to a battery
-2.Temperature in Celsius will be shown as default
-3.By pressing the button the lcd changes the values to Kelvin,Fahrenheit and back to Celsius
+1. The board (with the code already luploaded) needs to be powered on by being plugged to a computer ort to a battery
+2. Temperature in Celsius will be shown as default
+3. By pressing the button the lcd changes the values to Kelvin,Fahrenheit and back to Celsius
  
 ## 7.  Risk assessment
 
