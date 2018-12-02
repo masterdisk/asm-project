@@ -1,53 +1,98 @@
-# A Project for the AVR - Written in Assembler Language
 
-The purpose of this assignment is to write a small software project in assembler code. The MCU to be used is the AVR ATmega2560, and the project should include some form of interaction with sensors and actuators.
-
-## Description of the Project
-
-You are going to design and implement an application on the AVR atmega2560 microcontroller. This could be a game, a "smart-home" device, some sort of controller of electrical equipment. Your imagination and time are the only limits.
-
-The following are some non-functional requirements for the project:
-* The application must be written in AVR assembler
-* Your project must include some form of user interface (using sensors and actuators from the Arduino starter kit)
+#Portable Remote
 
 
-### Learning goals (from the course description):
-* Create functioning assembler programs for microcontrollers
-* Analyse ASM programs (AVR MCU) and calculate execution time
-* Execute and debug assembler programs
-* Create applications using assembler programming
-* Integrate simple I/O devices in embedded applications
+
+### Alexandru Mihai Serb, 266913
+### Eduard-Nicolae Costea, 266078
+### Mihail-Alexandru Ciornea, 266875
+### Raul Andrei Pologea, 266240
+### Teacher : Christian Flinker Sandbeck
 
 
-## Deliveries
 
-### Problem Formulation
-You are going to define and formulate the problem you want to solve in a problem statement. The project formulation is the product of the first two weeks, so take your time to generate a lot of ideas before deciding. 
+##Table of content
 
-### Project Plan (Analysis, design and test plan)
-* You must analyse the problem and describe it before implementing it. *Use for instance Activity or State Machine diagrams for this purpose.*
+### 1.	Background description	
+### 2.	Definition of purpose	
+### 3.	Problem Statement	
+### 4.	Diagrams	
+### 5.	Requirements	
+### 6.	Test	
+### 7.	Risk assessment	
+### 8.	Sources of Information	
 
-* Make a plan for testing your implementation. The plan should provide details on how to test the individual components or actions of your implementation.
 
-* When you know what to solve and how, split the work into tasks and devide them between group members. *You can use githubs build in issue tracking or any other task tracking system to manage your tasks*
+ 
+1.	Background description
 
-### Implementation
-* Implement the project in AVR assembler. 
-* The code must be well-structured and extensively commented, and you should apply software patterns to solve general problems. 
-* The code should be keept under version control in a fork of this git repository.
+“In computer engineering, computer architecture is a set of rules and methods that describe the functionality, organization, and implementation of computer systems. Some definitions of architecture define it as describing the capabilities and programming model of a computer but not a particular implementation. In other definitions computer architecture involves instruction set architecture design, microarchitecture design, logic design, and implementation”.
 
-## Practical Information
-### Definition of Done
-The project should be demonstrated for me on class and your implementation code handed in on github in the form of a pull request. Analysis, design and other relevant material should be documented in the README.md. See section below for details on how to do that.
+The project uses a Adeept Mega 2560 Board connected to the computer from a USB cable while on the breadboard there are the Thermistor, which measures the temperature in Celsius, Kelvin and Fahrenheit, the LCD1602, which displays the temperature, the Potentiometer (10K Ω) which changes the contrast of the LCD display, a small button, which changes the degrees from Celsius to Kelvin then to Fahrenheit and finally back to Celsius every time it is pressed, a Resistor (220 Ω). Last but no least, there are male to male jumper wires to make the connections.
 
-*All group members should have participated actively in producing code and thus it should be possible to find all group members in the git commit history.*
+The temperature converter has no OFF state, since it is plugged in it is in the ON state and it cannot be turned off, it can only be shut down by removing the USB cable.
 
-### Deadline 
-Your implementation should be ready and handed in **before** the first lesson of week 49 (8.20am)
+	
 
-### Github
-Before starting to commit any code, this repository should be forked to the github account of a group member. This forked repository is where you are going to create your Atmel Studio project and commit your assembler code. Eventually you can "Hand in" by creating a pull request. This will enable me to see your code and provide feedback on your project.
 
-The documentation should be written in the README.md on the repository. You can use markdown to format the document ([Markdown cheatsheet here](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf))
+ 
+2.	Definition of purpose
 
-If you are unsure of the details, ask me or a fellow student og go watch a video (like this: https://www.youtube.com/watch?v=_NrSWLQsDL4) or read the documentation.
+The purpose of the project is to make a temperature converter that shows the degrees in Celsius, Kelvin and Fahrenheit and can switch between them in real time, while showing it on a LCD display.
+
+
+ 
+3.	Problem Statement
+The temperature converter is a system for people to use to switch up real quick between different measurement scales, the ones being used are the more common ones: Celsius, Kelvin and Fahrenheit. 
+    1. How to make the display work properly without losing color
+    2. How to properly place the items on the breadboard
+    3. How to correctly code using only Assembly 
+
+. 
+4.	Diagrams
+
+
+
+ 
+5.	Requirements
+Functional requirements
+•	The temperature converter should be able to change the temperature between Celsius, Kelvin and Fahrenheit
+•	The display should work properly and be visible enough
+
+
+Non-functional requirements
+•	The only coding language that should be used is Assembly
+•	The only components used should be the ones from the Adeept kit.
+
+
+
+
+
+
+
+ 
+6.	Test
+ 
+7.	Risk assessment
+
+We decided to use a 1 to 5 rating system to describe the severity of the risks, 1 being the lowest and 5 being the highest.
+
+
+
+Risks	Description	Likelihood	Severity	Risk mitigation	Identifiers	Responsible
+Risk 1	Lack of knowledge	5	5	Keep working as a team on every exercise	Impossibility of creating the system	The entire team
+Risk 2	Bad time management	4	5	Agreeing on reasonable windows in our schedules	Not finishing our checkpoints on time	The entire team
+Risk 3	Lack of communication	4	4	Understanding our strong points	Misunderstanding each other	Individual members
+Risk 4	Losing part of / all data	1	4	Storing all the information online	A member’s computer breaks down	Depends on the event
+
+
+
+
+
+8.	Sources of Information
+
+The AVR Microcontroller and Embedded Systems Using Assembly and C by Muhammad Ali Mazidi, Sarmad Naimi and Sepehr Naimi
+ 
+
+ 
+
