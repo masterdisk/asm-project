@@ -51,7 +51,7 @@ The main problems we have to solve were:
 . 
 ## 4.  Diagrams
 
-
+![Alt Text](Diagrams/47396618_266002067423856_872895671336697856_n.png)
  
 ## 5.  Requirements
 Functional requirements
