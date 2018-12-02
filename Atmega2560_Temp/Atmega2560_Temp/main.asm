@@ -1,9 +1,9 @@
+;
 ; main.asm
 ;
 ; Created: 9/11/2018 9:34:27 AM
 ; Author : costead
-; This program explains the interface between Atmega2560 with LCD16x2 displaying default temperature in Celcius
-; which on pressing the button converts into Kelvin and Fahrenheit
+;
 ; Pin specification D7 = 7, D6 = 6, D5 = 5, D4 = 4 , EN = 0 , RS = 8, RW = GND
 
 .equ    fclk                = 16000000      ; system clock frequency (for delays)
@@ -298,3 +298,4 @@ delay1uS:
     ret                                     ; [4]
 
 ; End of Time Delay Subroutines 
+	
