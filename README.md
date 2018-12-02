@@ -3,11 +3,11 @@
 
 
 
-### Alexandru Mihai Serb, 266913
-### Eduard-Nicolae Costea, 266078
-### Mihail-Alexandru Ciornea, 266875
-### Raul Andrei Pologea, 266240
-### Teacher : Christian Flinker Sandbeck
+Alexandru Mihai Serb, 266913
+Eduard-Nicolae Costea, 266078
+Mihail-Alexandru Ciornea, 266875
+Raul Andrei Pologea, 266240
+Supervisor : Christian Flinker Sandbeck
 
 
 
