@@ -51,14 +51,14 @@ The main problems we have to solve were:
 . 
 ## 4.  Diagrams
 
-![Alt Text](Diagrams/47396618_266002067423856_872895671336697856_n.png)
+![Alt Text](Diagrams/StateMachine.png)
  
 ## 5.  Requirements
-Functional requirements
+### Functional requirements
 •   The temperature converter should be able to switch the temperature between Celsius, Kelvin, and Fahrenheit
 •   The display should work properly and be visible enough
 
-Non-functional requirements
+### Non-functional requirements
 •   The only coding language that should be used is Assembly
 •   The only components used should be the ones from the Adeept kit.
 
@@ -74,12 +74,7 @@ Non-functional requirements
 
 We decided to use a 1 to 5 rating system to describe the severity of the risks, 1 being the lowest and 5 being the highest.
 
-
-Risks   Description Likelihood  Severity    Risk mitigation Identifiers Responsible
-Risk 1  Lack of knowledge   5   5   Keep working as a team on every exercise    Impossibility of creating the system    The entire team
-Risk 2  Bad time management 4   5   Agreeing on reasonable windows in our schedules Not finishing our checkpoints on time   The entire team
-Risk 3  Lack of communication   4   4   Understanding our strong points Misunderstanding each other Individual members
-Risk 4  Losing part of / all data   1   4   Storing all the information online  A member’s computer breaks down Depends on the event
+![Alt Text](Diagrams/RiskTable.png)
 
 
 
