@@ -74,7 +74,7 @@ The main problems we have to solve were:
 
 We decided to use a 1 to 5 rating system to describe the severity of the risks, 1 being the lowest and 5 being the highest.
 
-![Alt Text](Diagrams/RiskTable.jpg)
+![Alt Text](Diagrams/RiskTable.JPG)
 
 
 
