@@ -1,4 +1,4 @@
-
+﻿
 # Portable Remote
 
 
@@ -42,7 +42,8 @@ The purpose of the project is to make a temperature converter that shows the deg
 
  
 ## 3.  Problem Statement
-The temperature converter is a system for people to use to switch up real quick between different measurement scales, the ones being used are the more common ones: Celsius, Kelvin and Fahrenheit.
+The temperature converter is a system for people to use in order to switch up real quick between different measurement scales.The ones being used are: Celsius, Kelvin and Fahrenheit.
+The main problems we has to solve were:
      1. How to make the display work properly without losing color
      2. How to properly place the items on the breadboard
      3. How to correctly code using only Assembly
@@ -54,7 +55,7 @@ The temperature converter is a system for people to use to switch up real quick 
  
 ## 5.  Requirements
 Functional requirements
-•   The temperature converter should be able to change the temperature between Celsius, Kelvin and Fahrenheit
+•   The temperature converter should be able to switch the temperature between Celsius, Kelvin and Fahrenheit
 •   The display should work properly and be visible enough
 
 Non-functional requirements
